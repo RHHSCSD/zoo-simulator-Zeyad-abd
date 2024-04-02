@@ -445,3 +445,25 @@ class ZooObject implements IObject {
         positionY = y;
     }
 }
+
+//How I would modify it
+//ArrayList<Animal> predators = new ArrayList<>();
+//ArrayList<Animal> herbivores = new ArrayList<>();
+//ArrayList<Animal> omnivores = new ArrayList<>();
+//
+//// Categorize animals based on diet when adding to the zoo
+//if (animal instanceof Carnivore) {
+//    predators.add(animal);
+//} else if (animal instanceof Omnivore) {
+//    omnivores.add(animal);
+//} else {
+//    herbivores.add(animal);
+//}
+//Implement simulatePredatorPreyInteractions method
+//simulatePredatorPreyInteractions() {
+//    for each predator in predators {
+//        for each prey in animals {
+//            // Implement predator-prey interaction logic
+//        }
+//    }
+//}
